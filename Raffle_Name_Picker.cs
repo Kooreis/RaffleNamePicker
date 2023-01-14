@@ -1,11 +1,5 @@
-using System;
-using System.Collections.Generic;
-
-class Program
+while (true)
 {
-    static void Main(string[] args)
-    {
-        List<string> names = new List<string>();
-        string input = "";
-    }
+    Console.WriteLine("Enter a name (or 'draw' to pick a winner):");
+    input = Console.ReadLine();
 }
